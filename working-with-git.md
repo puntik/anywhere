@@ -3,7 +3,8 @@
 ## Založení nové větve
 
 Novou větev zakládáme vždy ze základní větve origin/staging.
-Nová větev musí popisovat, co se v ní řeší, malými písmeny a slova oddělena pomlčkou (např: introducing-php-codesniffer)
+Nová větev musí popisovat, co se v ní řeší, malými písmeny a slova oddělena pomlčkou (např: introducing-php-codesniffer).
+Veškerá práce probíhá pod běžným uživatelem (platí pro linuxové a mac uživatele), takže žádne `su` nebo `sudo`.
 
 ~~~
 git checkout -b new_branch_name origin/staging
