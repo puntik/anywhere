@@ -36,4 +36,6 @@ git diff origin/stage # show changes against parent branch origin/state
 git push              # push changes to origin
 ~~~
 
+## Založení merge requestu
 
+TBD :)
