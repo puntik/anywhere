@@ -1,13 +1,15 @@
-# Práce s gitem
+# Práce s gitem a proces vývoje
 
 ## Založení nové větve
 
 Novou větev zakládáme vždy ze základní větve origin/staging.
 Nová větev musí popisovat, co se v ní řeší, malými písmeny a slova oddělena pomlčkou (např: introducing-php-codesniffer)
 
-~~~
+~~~sh
 git checkout -b new_branch_name origin/staging
 ~~~
+
+## Denní práce s gitem
 
 Pokud práce ve větvi trvá délší dobu, ráno po příchodu do práce je dobré namergovat změny ve větvi origin/staging. předejde se tak případnému konfliktu.
 
@@ -26,3 +28,9 @@ git commit -m "Fixed a lot of typos" # commit
 ~~~
 
 Pozor: nezaměňovat git termín stage a větev origin/stage.
+
+Po dokončení práce provést push, který vytvoří novou větev na origin. Před pushem je dobré provést kontrolu změněných kódů.
+
+~~~
+git diff 
+~~~
