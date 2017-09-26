@@ -4,7 +4,7 @@
 
 Novou větev zakládáme vždy ze základní větve origin/staging.
 Nová větev musí popisovat, co se v ní řeší, malými písmeny a slova oddělena pomlčkou (např: introducing-php-codesniffer).
-Veškerá práce probíhá pod běžným uživatelem (platí pro linuxové a mac uživatele), takže žádne `su` nebo `sudo`.
+Veškerá práce probíhá pod běžným uživatelem (platí pro linuxové a mac uživatele), takže žádné `su` nebo `sudo`.
 
 ~~~
 git checkout -b new_branch_name origin/staging
@@ -12,7 +12,7 @@ git checkout -b new_branch_name origin/staging
 
 ## Denní práce s gitem
 
-Pokud práce ve větvi trvá délší dobu, ráno po příchodu do práce je dobré namergovat změny ve větvi origin/staging. předejde se tak případnému konfliktu.
+Pokud práce ve větvi trvá délší dobu, ráno po příchodu do práce je dobré namergovat změny ve větvi *origin/staging*. předejde se tak případnému konfliktu.
 
 ~~~
 git merge origin/staging
