@@ -28,7 +28,7 @@ git add path/changed_file_2
 git commit -m "Fixed a lot of typos" # commit 
 ~~~
 
-Pozor: nezaměňovat git termín stage a větev origin/stage.
+Pozor: nezaměňovat git termín stage a větev origin/staging.
 
 Po dokončení práce provést push, který vytvoří novou větev na origin. Před pushem je dobré provést kontrolu změněných kódů.
 
