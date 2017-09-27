@@ -5,7 +5,7 @@ Dokument popisuje základy práce s gitem.
 ## Založení nové větve
 
 Novou větev zakládáme vždy ze základní větve origin/staging.
-Nová větev musí popisovat, co se v ní řeší, malými písmeny a slova oddělena pomlčkou (např: introducing-php-codesniffer).
+Nová větev musí popisovat, co se v ní řeší, anglicky, malými písmeny a slova oddělena pomlčkou (např: introducing-php-codesniffer).
 Veškerá práce probíhá pod běžným uživatelem (platí pro linuxové a mac uživatele), takže žádné `su` nebo `sudo`.
 
 ~~~
@@ -20,7 +20,7 @@ Pokud práce ve větvi trvá délší dobu, ráno po příchodu do práce je dob
 git merge origin/staging
 ~~~
 
-Jednotlivé komity by mely být atomické, do stage přidávat jen soubory, které se opravdu změnily. Zjistit stav stage jde příkazem gitu status.
+Jednotlivé komity by mely být atomické, do stage přidávat jen soubory, které se opravdu změnily. Zjistit stav stage jde příkazem gitu status. Popisy komitů píšeme anglicky a popisné.
 
 ~~~
 git status                           # show stage status
