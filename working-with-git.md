@@ -1,5 +1,7 @@
 # Práce s gitem a proces vývoje
 
+Dokument popisuje základy práce s gitem. 
+
 ## Založení nové větve
 
 Novou větev zakládáme vždy ze základní větve origin/staging.
