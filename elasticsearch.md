@@ -3,7 +3,11 @@
 Rozhodně nevyčerpávající poznámky k instalaci a správě elasticsearch. Zatím předpokádané použití je fulltextové hledání 
 pro češtinu.
 
-## Instalace, aneb co všechno potřebuju k životu
+## Elastic search
+
+Stručně, jak to uvést do chodu.
+
+### Instalace, aneb co všechno potřebuju k životu
 
 Uvažujeme instalaci z předpřipravené binárky, do budoucna na to dám do kupy docker.
 Stažení aktuální verze **elastic search** https://www.elastic.co/products. A když už tam jsme, stáhneme rovnou i
@@ -25,7 +29,7 @@ cd elasticsearch-5.6.4
 
 A je to, po chvíli chroupání se na adrese http://localhost:9200 objeví známé **You Know, for Search**.
 
-## Instalace pluginů
+### Instalace pluginů
 
 Pro vhledávání v češtině potřebujeme několik pluginů.
   
